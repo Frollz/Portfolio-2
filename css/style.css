@@ -29,7 +29,7 @@ ul, li, a {
   margin: 12px 0 0;
 }
 .container {
-  max-width: 1369px;
+  max-width: 1413px;
   margin: 0 auto;
 }
 .header_flex {
@@ -135,7 +135,7 @@ ul, li, a {
 }
 .HowItWorks {
   margin-top: 169px;
-  margin-left: 275px;
+  margin-left: 42px;
 }
 .HIW {
   font-family: 'Lato';
@@ -310,7 +310,7 @@ ul, li, a {
     margin-right: 55px;
   }
   .Card_N3 {
-    margin-left: 0;
+    margin-left: 200px;
     margin-top: -290px;
   }
   .HowItWorks {

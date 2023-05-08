@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Serif+Georgian:wght@700&display=swap');
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0;
+  margin: 0;
+}
+ul, li, a {
+  text-decoration: none;
+  list-style-type: none;
+}
+:root {
+  --accent-color: #01996D;
+}
+.header {
+  min-height: 74px;
+  margin: 12px 0 0;
+}
+.container {
+  max-width: 1369px;
+  margin: 0 auto;
+}
+.header_flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_logo-menu {
+  display: flex;
+  margin-top: 3px;
+}
+.logo {
+  width: 80px;
+  height: 23px;
+  align-self: center;
+}
+.header_menu {
+  display: flex;
+  margin-left: 100px;
+  padding: 0;
+}
+.menu_item {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: black;
+  margin-left: 72px;
+}
+.header_signin {
+  display: flex;
+}
+.p-sign_in {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  align-self: center;
+  margin-top: 2px;
+}
+.button_style {
+  padding: 13px 49px;
+  background: var(--accent-color);
+  border: none;
+  border-radius: 4px;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 4px;
+}
+.header_button {
+  margin-left: 36px;
+}
+.line {
+  max-width: 100%;
+  height: 1px;
+  color: gray;
+  padding: 0 auto;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.FindYourWay {
+  height: 895px;
+  background-image: url(/img/BG.jpg);
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.hz {
+  padding-top: 175px;
+  margin-left: 275px;
+  max-width: 440px;
+}
+.h1_style {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 74px;
+  color: var(--accent-color);
+}
+.p_style {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #484848;
+}
+.hz-p {
+  margin-top: 30px;
+}
+.hz_button {
+  margin-top: 52px;
+  padding: 20px 50px;
+}
+.HowItWorks {
+  margin-top: 169px;
+  margin-left: 275px;
+}
+.HIW {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 157%;
+  color: #424242;
+}
+.Understand_flex {
+  display: flex;
+}
+.Und_h1 {
+  font-size: 50px;
+  line-height: 157%;
+  margin-top: -4px;
+}
+.Und_p {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #424242;
+  margin-left: 149px;
+  margin-top: 18px;
+}
+.Card_flex {
+  display: flex;
+}
+.Card_N1 {
+  margin-top: 53px;
+}
+.Card_Num {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 150px;
+  line-height: 150%;
+  text-align: center;
+  color: rgba(1, 153, 109, 0.2);
+  margin: 0;
+  max-height: 225px;
+  z-index: 2;
+}
+.Card_h3_style {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #000000;
+  max-height: 45px;
+  z-index: 1;
+}
+.Card_Num-1 {
+  max-width: 157px;
+}
+.Card1_h3 {
+  max-width: 181px;
+  margin-top: -90px;
+  margin-left: 88px;
+}
+.Card1_p {
+  margin-top: 55px;
+  line-height: 30px;
+}
+.Card1_img {
+  z-index: 2;
+  margin-top: 60px;
+}
+.Card1-1_img {
+  z-index: 1;
+  margin-top: -267px;
+  margin-left: 205px;
+}
+.Card_N2 {
+  margin-left: 95px;
+  margin-bottom: 51px;
+}
+.Card_Num-2 {
+  margin-top: 341px;
+  max-width: 176px;
+}
+.Card2_h3 {
+  max-width: 313px;
+  margin-top: -91px;
+  margin-left: 79px;
+}
+.Card2_p {
+  line-height: 30px;
+  margin-top: 56px;
+}
+.Card2_img {
+  margin-top: 35px;
+}
+.Card_N3 {
+  margin-left: 96px;
+}
+.Card_Num-3 {
+  max-width: 175px;
+  margin-top: 108px;
+  margin-left: 6px;
+}
+.Card3_h3 {
+  max-width: 102px;
+  margin-top: -90px;
+  margin-left: 130px;
+}
+.Card3_p {
+  line-height: 30px;
+  margin-top: 45px;
+}
+.Card3_img {
+  margin-top: 48px;
+  margin-left: 6px;
+}
+.video {
+  min-height: 922px;
+  background-color: #245852;
+}
+.corobka {
+  margin: 0 auto;
+  max-width: 1509px;
+}
+.video_flex {
+  display: flex;
+}
+.video_h1 {
+  color: #FFFFFF;
+  font-size: 50px;
+  line-height: 79px;
+}
+.video_p {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 39px;  
+  color: #FFFFFF;
+  margin-top: 32px;
+}
+.video_button {
+  margin-top: 58px;
+  padding: 20px 50px;
+}
+.video_flex-left {
+  margin-top: 311px;
+}
+.video_flex-right {
+  margin-left: 73px;
+  width: 896px;
+  height: 516px;
+  margin-top: 230px;
+  margin-bottom: 177px;
+}
+.video_box {
+  max-width: 100%;
+  height: 100%;
+}
+.section-with-video__video-file {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+}
+
+@media screen and (max-width:1658px) {
+  .Card_flex {
+    flex-wrap: wrap;
+    margin-left: 55px;
+    margin-right: 55px;
+  }
+  .Card_N3 {
+    margin-left: 0;
+    margin-top: -290px;
+  }
+  .HowItWorks {
+    margin-right: 25px;
+  }
+  .video_flex {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .Card_N3 {
+    margin-bottom: 51px;
+  }
+}
+@media screen and (max-width:1521px) {
+  .video_flex {
+    flex-direction: column;
+  }
+  .video_flex-left {
+    margin: 51px auto 0;
+  }
+  .video_button {
+    margin: 58px auto 0;
+  }
+  .video_flex-right {
+    margin: 51px auto;
+  }
+} 
+@media screen and (max-width:1379px) {
+  .container {
+    margin: 0 10px;
+  }
+  .header_menu {
+    margin-left: 0px;
+  }
+  .menu_item {
+    margin-left: 40px;
+  }
+  .hz {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width:1287px) {
+  .Card_flex {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 435px;
+  }
+  .HowItWorks {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .Card_N1 {
+    margin: 53px auto 0;
+  }
+  .Card_N2 {
+    margin: -200px auto 0;
+  }
+  .Card_N3 {
+    margin: -90px auto 51px;
+  }
+}
+@media screen and (max-width:965px) {
+  .header_flex {
+    flex-direction: column;
+  }
+  .header_signin {
+    margin-top: 10px;
+  }
+  .video_flex-right {
+    max-width: 717px;
+    max-height: 413px;
+  }
+}
+@media screen and (max-width:819px) {
+  .Understand_flex {
+    flex-direction: column;
+  }
+  .Und_p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Und_h1 {
+    max-width: 571px;
+    margin: 0 auto;
+  }
+  .HIW {
+    margin: 0 auto;
+    max-width: 142px;
+  }
+}
+@media screen and (max-width:753px) {
+  .video_flex-right {
+    max-width: 574px;
+    max-height: 330px;
+  }
+}
+@media screen and (max-width:601px) {
+  .header_menu {
+    flex-direction: column;
+  }
+  .header_logo-menu {
+    flex-direction: column;
+    margin: 5px auto 0;
+  }
+  .menu_item {
+    margin: 0 auto;
+  }
+  .li_menu_item {
+    margin: 10px auto 0;
+  }
+  .logo {
+    margin: 10px auto 0;
+  }
+  .header_signin {
+    margin: 0 auto;
+    flex-direction: column-reverse;
+  }
+  .header_button {
+    margin-left: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .hz {
+    margin-left: 10px;
+  }
+  .video_flex-right {
+    max-width: 459px;
+    max-height: 264px;
+  }
+}
+@media screen and (max-width:487px) {
+  .video_flex-right {
+    max-width: 367px;
+    max-height: 211px;
+  }
+}
+@media screen and (max-width:470px) {
+  .hz {
+    margin: 0 10px;
+  }
+  .hz-h1 {
+    margin: 0 auto;
+  }
+  .hz-p {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width:430px) {
+  .Card1-1_img {
+    position: fixed;
+  }
+  .Und_h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width:395px) {
+  .video_flex-right {
+    max-width: 294px;
+    max-height: 169px;
+  }
+}
+@media screen and (max-width:325px) {
+  .video_flex-right {
+    max-width: 250px;
+    max-height: 144px;
+  }
+}
+@media screen and (max-width:308px) {
+  .Card_h3_style {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width:283px) {
+  .hz-h1 {
+    font-size: 60px;
+  }
+}

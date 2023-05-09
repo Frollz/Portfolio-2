@@ -24,6 +24,8 @@ ul, li, a {
 :root {
   --accent-color: #01996D;
 }
+
+
 .header {
   min-height: 74px;
   margin: 12px 0 0;
@@ -45,6 +47,7 @@ ul, li, a {
   width: 80px;
   height: 23px;
   align-self: center;
+  cursor: pointer;
 }
 .header_menu {
   display: flex;
@@ -71,6 +74,7 @@ ul, li, a {
   line-height: 24px;
   align-self: center;
   margin-top: 2px;
+  cursor: pointer;
 }
 .button_style {
   padding: 13px 49px;
@@ -85,6 +89,7 @@ ul, li, a {
   text-align: center;
   color: #FFFFFF;
   margin-top: 4px;
+  cursor: pointer;
 }
 .header_button {
   margin-left: 36px;
@@ -97,12 +102,13 @@ ul, li, a {
   margin: 0 auto;
   margin-top: 15px;
 }
+
+
 .FindYourWay {
   height: 895px;
   background-image: url(/img/BG.jpg);
   margin: 0 auto;
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
 }
 .hz {
@@ -133,6 +139,8 @@ ul, li, a {
   margin-top: 52px;
   padding: 20px 50px;
 }
+
+
 .HowItWorks {
   margin-top: 169px;
   margin-left: 42px;
@@ -254,6 +262,8 @@ ul, li, a {
   margin-top: 48px;
   margin-left: 6px;
 }
+
+
 .video {
   min-height: 922px;
   background-color: #245852;
@@ -303,6 +313,150 @@ ul, li, a {
   border-radius: 16px;
 }
 
+
+.Our_product {
+  margin-top: 120px;
+  margin-bottom: 168px;
+  margin-left: 12px;
+}
+.O_p_flex {
+  display: flex;
+}
+.O-p_flex-left {
+  width: 699px;
+  height: 648px;
+  background-image: url(/img/O-p-img.png);
+  border-radius: 18px;
+  background-position: 58px 0;
+  background-repeat: no-repeat;
+}
+.O-p_card {
+  position: absolute;
+  width: 296px;
+  height: 294px;
+  background-color: #fff;
+  filter: drop-shadow(0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25));
+  border-radius: 5px;
+  margin-top: 353px;
+}
+.card_top_p {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14.49px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+  margin-top: 23px;
+}
+.card_line {
+  margin: 8px auto 0;
+  width: 110px;
+  height: 1px;
+  background-color: black;
+}
+.O-p_card_img {
+  margin: 14px auto 0;
+  width: 57px;
+  height: 57px;
+}
+.card_name_p {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11.9351px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+  margin: 10px auto 0;
+}
+.O-p_card_h4 {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15.9292px;
+  line-height: 25px;
+  color: #000000;
+  margin-top: 20px;
+  text-align: center;
+}
+.O-p_card_ul {
+  margin-top: 16px;
+  text-align: left;
+  padding-left: 61px;
+}
+.O-p_card_li {
+  list-style-type: disc;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.6195px;
+  line-height: 17px;
+  color: #000000;
+}
+.O-p_flex-right {
+  margin-left: 87px;
+}
+.O-p {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 39px;
+  color: #424242;
+}
+.O-p_h1 {
+  font-size: 50px;
+  line-height: 79px;
+  margin-top: 10px;
+}
+.O-p_p {
+  margin-top: 20px;
+  line-height: 29px;
+  font-size: 20px;
+}
+.O-p_button {
+  margin-top: 34px;
+  padding: 20px 50px;
+}
+.container-box {
+  margin: 0 15px;
+}
+
+
+.footer {
+  background-color: #245852;
+}
+.Alivio_footer_nav {
+  margin-left: 275px;
+  padding-bottom: 147px;
+  max-width: 125px;
+}
+.footer_h5 {
+  font-family: 'Avenir',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+  color: #FFFFFF;
+  padding-top: 92px;
+}
+.footer_ul {
+  padding: 0;
+  margin: 0;
+}
+.footer_li {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin-top: 60px;
+  cursor: pointer;
+}
+
+
 @media screen and (max-width:1658px) {
   .Card_flex {
     flex-wrap: wrap;
@@ -337,10 +491,25 @@ ul, li, a {
   .video_flex-right {
     margin: 51px auto;
   }
-} 
+}
+@media screen and (max-width:1411px) {
+  .O_p_flex {
+    flex-direction: column;
+  }
+  .O-p_flex-left {
+    margin: 0 auto;
+  }
+  .O-p_flex-right {
+    margin: 60px auto 0;
+  }
+  .Alivio_footer_nav {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
 @media screen and (max-width:1379px) {
   .container {
-    margin: 0 10px;
+    margin: 0 15px;
   }
   .header_menu {
     margin-left: 0px;
@@ -360,8 +529,8 @@ ul, li, a {
     max-width: 435px;
   }
   .HowItWorks {
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
   }
   .Card_N1 {
     margin: 53px auto 0;
@@ -406,6 +575,14 @@ ul, li, a {
   .video_flex-right {
     max-width: 574px;
     max-height: 330px;
+  }
+  .O-p_flex-left {
+    background-position: center;
+  }
+}
+@media screen and (max-width:732px) {
+  .O-p_flex-left {
+    width: 400px;
   }
 }
 @media screen and (max-width:601px) {
@@ -458,6 +635,12 @@ ul, li, a {
   .hz-p {
     margin: 0 auto;
   }
+  .O-p_flex-left {
+    width: 260px;
+  }
+  .O-p_card {
+    margin-left: -20px;
+  }
 }
 @media screen and (max-width:430px) {
   .Card1-1_img {
@@ -471,6 +654,19 @@ ul, li, a {
   .video_flex-right {
     max-width: 294px;
     max-height: 169px;
+  }
+}
+@media screen and (max-width:346px) {
+  .O-p_card {
+    width: 253px;
+    height: 270px;
+    margin-left: 4px;
+  }
+  .O-p {
+    margin-right: 10px;
+  }
+  .Our_product {
+    margin: 120px auto 168px;
   }
 }
 @media screen and (max-width:325px) {
